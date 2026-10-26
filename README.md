@@ -112,8 +112,8 @@ The planned configuration is:
 
 | Type  | Name  | Target                |
 | ----- | ----- | --------------------- |
-| CNAME | `www` | Frontend ALB DNS name |
-| CNAME | `api` | Backend ALB DNS name  |
+| CNAME | `www` | mohammadali.shop|
+| CNAME | `api` | mohammadali.shop  |
 
 These are example records. The actual domain and DNS targets must match the configured deployment. Root-domain DNS may require Cloudflare's supported apex-domain handling.
 
