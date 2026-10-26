@@ -1,0 +1,31 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+
+# Node.js dependencies
+node_modules/
+backend/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# AWS private keys
+*.pem
+*.key
+
+# Build output
+frontend/dist/
+
+
+# Local backup files
+*.current-backup
+*.incomplete-backup
